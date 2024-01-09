@@ -1,0 +1,27 @@
+@media (max-width: 600px) {
+  .jolly {
+    padding: 10px;
+  }
+}
+
+
+.App {
+  text-align: center;
+
+}
+
+.jolly{
+  background-color: #f1f1f1;;
+}
+  
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

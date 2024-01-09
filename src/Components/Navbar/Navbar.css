@@ -1,0 +1,95 @@
+@media screen and (max-width: 1150px) {
+    .navbar {
+        justify-content: space-around;
+        background-color: white;
+    }
+  }
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.bit{
+    align-items: center;
+    color: #4c5968;
+}
+.back{
+    margin-top: 10px;
+}
+.back h2:hover{
+    background: rgba(0, 0, 0, 0.5);
+    width: 30px; /* Set the width and height as needed */
+    height:30px;
+    border-radius: 50%;
+    position: fixed;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 8px;
+    right: 0;
+}
+
+.dropdown-content li {
+    position: relative;
+    padding: 8px 16px;
+    text-align: left;
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s; /* Add a smooth transition for the background color */
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Adjust the alpha value for transparency */
+    z-index: 2;
+}
+
+/* Show the overlay when the dropdown is open */
+.show .overlay {
+    display: block;
+}
+
+.dropdown-content li:last-child{
+    border-bottom: none;
+    color: red;
+}
+
+.dropdown-content li:hover{
+    background-color: #f1f1f1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Style for the logo image */
+.logo {
+    width: 23px; /* Adjust the size as needed */
+    height: auto;
+    cursor: pointer;
+    justify-content: center;
+}
+

@@ -1,0 +1,32 @@
+@media (max-width: 600px) {
+    .janta {
+      padding: 10px;
+    }
+  }
+
+
+footer {
+    background-color: #ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    color: grey;
+}
+
+.icon:hover, .selected{
+    color: black;
+    transform: scale(1.1);
+}

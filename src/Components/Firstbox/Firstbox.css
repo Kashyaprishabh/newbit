@@ -1,0 +1,134 @@
+@media (max-width: 600px) {
+  .bitcoinBox {
+    padding: 10px;
+  }
+}
+
+
+
+.bitcoinBox{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 40vh;
+  margin: 0;
+}
+.bitcoinBox_first {
+    width: 1000px;
+    height: 300px;
+    border: white;
+    display: flex;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 1px 20px 0px rgba(0,0,0,0.2)    
+}
+.bitcoin{
+  display: flex;
+  margin-left: 87px;
+  margin-top: 33px;
+  font-weight: bold;
+  font-size: 25px;
+  color: #4c5968;
+}
+.logo1{
+  margin-left: 50px;
+  margin-top: 20px;
+  width: 30px;
+  height: 30px;
+  color: #F7931A;
+  font-weight: bold;
+}
+
+.BTC{
+  display: flex;
+  margin-left: 670px;
+  margin-top: 33px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #4c5968;
+
+}
+.bitcoinLogo {
+    width: 30px;
+    height: 30px;
+    color: #ffa326;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+
+.R{
+  margin-top: 99px;
+  margin-left: -920px;
+  justify-content: left;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #4c5968;
+}
+
+.D{
+  margin-top: 150px;
+  margin-left: -200px;
+  justify-content: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+.red{
+  margin-top: 180px;
+  margin-bottom: 100px;
+  margin-left: 670px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  background-color: #ee225d;
+  border-radius: 20px;
+  border: transparent;
+  font-size: 16px;
+}
+
+.toggle{
+  margin-top: 14rem;
+  margin-left: -25rem;
+  position: relative;
+  display: inline-flex;
+  
+}
+
+.toggle-menu {
+  position: relative;
+  display: inline-flex;
+}
+
+.menu-options {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 8px;
+}
+
+.menu-options button {
+  position: relative;
+  padding: 30px 20px;
+  text-align: left;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s; /* Add a smooth transition for the background color */
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.menu-options button:hover{
+  background-color: #f1f1f1;
+}
+
+.toggle:hover .menu-options{
+  display: flex;
+}
